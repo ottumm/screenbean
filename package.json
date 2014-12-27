@@ -1,0 +1,22 @@
+{
+  "name": "screenbean",
+  "version": "0.0.1",
+  "description": "A fountain.io to HTML converter in the spirit of screenplain.",
+  "main": "screenbean.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ottumm/screenbean.git"
+  },
+  "keywords": [
+    "fountain"
+  ],
+  "author": "Mike Ottum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ottumm/screenbean/issues"
+  },
+  "homepage": "https://github.com/ottumm/screenbean"
+}
