@@ -2,7 +2,7 @@
   "name": "screenbean",
   "version": "0.0.1",
   "description": "A fountain.io to HTML converter in the spirit of screenplain.",
-  "main": "screenbean.js",
+  "main": "screenbean.coffee",
   "scripts": {
     "test": "test"
   },
@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/ottumm/screenbean/issues"
   },
-  "homepage": "https://github.com/ottumm/screenbean"
+  "homepage": "https://github.com/ottumm/screenbean",
+  "dependencies": {
+    "commander": "^2.5",
+    "fountain-js": "ottumm/fountain-js"
+  },
+  "bin": {
+    "screenbean": "cmd.coffee"
+  }
 }
